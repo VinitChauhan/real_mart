@@ -16,7 +16,7 @@ public class DemoController {
 	
 	@RequestMapping(method = RequestMethod.GET, value="/test")
 	public @ResponseBody String testMethod() {
-		return configHandler.getPropertyValue("test.prop");
+		return "Vinit Testing";
 	}
 
 }
